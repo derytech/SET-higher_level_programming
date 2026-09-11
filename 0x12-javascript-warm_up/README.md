@@ -5,3 +5,4 @@ This project introduces the basics of JavaScript programming.
 ## Tasks
 
 - 0-javascript_is_amazing.js - Prints "JavaScript is amazing".
+- 9-add.js - Prints the addition of two integers.
