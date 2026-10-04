@@ -9,4 +9,4 @@ const fileC = process.argv[4];
 const contentA = fs.readFileSync(fileA);
 const contentB = fs.readFileSync(fileB);
 
-fs.writeFileSync(fileC, Buffer.concat([contentA, Buffer.from('\n'), contentB]));
+fs.writeFileSync(fileC, Buffer.concat([contentA, contentB]));
